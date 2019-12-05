@@ -10,6 +10,7 @@ import java.lang.UnsupportedOperationException;
 import eg.edu.alexu.csd.oop.db.cs33.*; 
 
 public class MyStatement implements Statement {
+	
     private DatabaseImp database = new DatabaseImp();
     private ArrayList<String> batch = new ArrayList<String>();
     private String query ;
