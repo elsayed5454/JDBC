@@ -7,26 +7,26 @@ import java.sql.SQLWarning;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.lang.UnsupportedOperationException;
-import eg.edu.alexu.csd.oop.db.cs33.*; 
+import eg.edu.alexu.csd.oop.db.cs33.*;
 
 public class MyStatement implements Statement {
-	
-    private DatabaseImp database = new DatabaseImp();
-    private ArrayList<String> batch = new ArrayList<String>();
-    private String query ;
-    private int TimeOut ;
-    private boolean opened = false; // To determine if the class opened or closed , in each method it will check if it is opened else it will throw an exception
-    private Connection c ;
-    
-    
-    public void MyStatment() {
-    	opened = true ;
-    }
-    
+
+	private DatabaseImp database = new DatabaseImp();
+	private ArrayList<String> batch = new ArrayList<String>();
+	private String query;
+	private int TimeOut;
+	private boolean opened = false; // To determine if the class opened or closed , in each method it will check if
+									// it is opened else it will throw an exception
+	private Connection c;
+
+	public void MyStatment() {
+		opened = true;
+	}
+
 	@Override
 	public <T> T unwrap(Class<T> iface) throws SQLException {
 		throw new UnsupportedOperationException();
-		}
+	}
 
 	@Override
 	public boolean isWrapperFor(Class<?> iface) throws SQLException {
@@ -35,39 +35,34 @@ public class MyStatement implements Statement {
 
 	@Override
 	public ResultSet executeQuery(String sql) throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else {
-		Object[][] arr = database.executeQuery(sql);
-		ResultSet set = new MyResultSet(arr);	
-		return set;
+		} else {
+			Object[][] arr = database.executeQuery(sql);
+			ResultSet set = new MyResultSet(arr);
+			return set;
 		}
 	}
-		
 
 	@Override
 	public int executeUpdate(String sql) throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else {
-		int counter=0;
-		counter = database.executeUpdateQuery(sql);
-		return counter;
+		} else {
+			int counter = 0;
+			counter = database.executeUpdateQuery(sql);
+			return counter;
 		}
 	}
 
 	@Override
 	public void close() throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else 
-		{
+		} else {
 			opened = false;
-			batch = null ;
-			query = null ;
+			batch = null;
+			query = null;
 		}
 
 	}
@@ -100,20 +95,18 @@ public class MyStatement implements Statement {
 
 	@Override
 	public int getQueryTimeout() throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else
-		return TimeOut;
+		} else
+			return TimeOut;
 	}
 
 	@Override
 	public void setQueryTimeout(int seconds) throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else
-		this.TimeOut = seconds;
+		} else
+			this.TimeOut = seconds;
 
 	}
 
@@ -124,7 +117,7 @@ public class MyStatement implements Statement {
 
 	@Override
 	public SQLWarning getWarnings() throws SQLException {
-	
+
 		throw new UnsupportedOperationException();
 	}
 
@@ -147,14 +140,14 @@ public class MyStatement implements Statement {
 
 	@Override
 	public ResultSet getResultSet() throws SQLException {
-		
+
 		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public int getUpdateCount() throws SQLException {
 		throw new UnsupportedOperationException();
- 
+
 	}
 
 	@Override
@@ -195,10 +188,9 @@ public class MyStatement implements Statement {
 
 	@Override
 	public void addBatch(String sql) throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else {
+		} else {
 			batch.add(sql);
 		}
 
@@ -206,10 +198,9 @@ public class MyStatement implements Statement {
 
 	@Override
 	public void clearBatch() throws SQLException {
-		if (! opened ) {
+		if (!opened) {
 			throw new SQLException("Statement closed");
-		}
-		else {
+		} else {
 			batch.clear();
 		}
 
