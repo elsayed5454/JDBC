@@ -39,7 +39,18 @@ public class MyResultSet implements ResultSet {
 	int size = Result.size();
 	
 	boolean closed = false;
-
+    
+	public MyResultSet(Object[][] arr) {
+		int height = arr[0].length;
+		int len = arr.length;
+		for (int i=0 ; i<len ; i++) {
+			Map<Integer,Object> map = new HashMap<Integer,Object>();
+			for (int j=0 ; j<height ; j++) {
+				map.put(j, arr[i][j]);
+			}
+			Result.add(map);
+		}
+	}
 
 	@Override
 	public boolean absolute(int row) throws SQLException {
