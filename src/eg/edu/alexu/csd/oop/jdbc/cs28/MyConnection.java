@@ -22,6 +22,10 @@ import java.util.concurrent.Executor;
 
 public class MyConnection implements Connection {
     
+	public MyConnection(String path) {
+		
+	}
+	
 	@Override
 	public <T> T unwrap(Class<T> iface) throws SQLException {
 		throw new UnsupportedOperationException();
