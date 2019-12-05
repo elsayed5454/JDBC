@@ -21,11 +21,31 @@ import java.util.Properties;
 import java.util.concurrent.Executor;
 
 public class MyConnection implements Connection {
-    
+
+	private String path;
+	private boolean closed;
+
 	public MyConnection(String path) {
-		
+		this.closed = false;
+		this.path = path;
 	}
-	
+
+	@Override
+	public Statement createStatement() throws SQLException {
+		// TODO Auto-generated method stub
+		return new MyStatement();
+	}
+
+	@Override
+	public void close() throws SQLException {
+		// TODO Auto-generated method stub
+		if (closed) {
+			throw new SQLException();
+		}
+		closed = true;
+	}
+
+	// Unimplemented methods
 	@Override
 	public <T> T unwrap(Class<T> iface) throws SQLException {
 		throw new UnsupportedOperationException();
@@ -34,12 +54,6 @@ public class MyConnection implements Connection {
 	@Override
 	public boolean isWrapperFor(Class<?> iface) throws SQLException {
 		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public Statement createStatement() throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 	@Override
@@ -77,12 +91,6 @@ public class MyConnection implements Connection {
 	@Override
 	public void rollback() throws SQLException {
 		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public void close() throws SQLException {
-		// TODO Auto-generated method stub
 
 	}
 

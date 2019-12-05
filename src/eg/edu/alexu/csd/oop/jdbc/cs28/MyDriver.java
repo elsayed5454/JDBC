@@ -30,13 +30,13 @@ public class MyDriver implements Driver {
 			String path =  (String) arg1.get("path");
 			return new MyConnection(path) ;			
 		}
-		
+
 		return null;
 	}
-	
+
 	@Override
 	public DriverPropertyInfo[] getPropertyInfo(String arg0, Properties arg1) throws SQLException {
-		
+
 		Set<Object> list = arg1.keySet();
 		
 		if (acceptsURL(arg0) && list != null) {
@@ -46,35 +46,25 @@ public class MyDriver implements Driver {
 		return new DriverPropertyInfo[0];
 	}
 
-	
-	
-	
-	
-	
-	
-	
+	// Unimplemented methods
 	@Override
 	public int getMajorVersion() {
-		// Unimplemented method
-		throw new UnsupportedOperationException();	
+				throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public int getMinorVersion() {
-		// Unimplemented method
-		throw new UnsupportedOperationException();	
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
-		// Unimplemented method
-		throw new UnsupportedOperationException();	
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public boolean jdbcCompliant() {
-		// Unimplemented method
-		throw new UnsupportedOperationException();	
+		throw new UnsupportedOperationException();
 	}
 
 }
