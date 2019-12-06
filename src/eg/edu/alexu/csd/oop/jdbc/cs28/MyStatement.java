@@ -131,7 +131,7 @@ public class MyStatement extends SuperStatement {
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
-		return new MyResultSet(DB.executeQuery(sql));
+		return new MyResultSet(DB.executeQuery(sql), DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
 	}
 
 	@Override
