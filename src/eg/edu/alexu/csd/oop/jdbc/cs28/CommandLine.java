@@ -24,12 +24,12 @@ import javax.swing.text.StyledDocument;
 
 public class CommandLine {
 	
-	boolean intialize = true;
 	Driver myDriver = new MyDriver();
 	Properties info = new Properties();
 	Connection myConnection ;
 	Statement myStatment;
 	QueryParser qp = new QueryParser();
+	File dir = new File("tests");
 
 	public static void main(String[] args) {
 
@@ -42,7 +42,17 @@ public class CommandLine {
 	private JScrollPane scrollpane;
 	private StyledDocument document;
 
+
 	public CommandLine() {
+		
+		info.put("path", dir.getAbsoluteFile());
+		try {
+			myConnection = myDriver.connect("jdbc:xmldb://localhost", info);
+			myStatment = myConnection.createStatement();
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		
 		try {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 
@@ -74,6 +84,7 @@ public class CommandLine {
 		Style instructionStyle = panel.addStyle("Instructions", null);
 		StyleConstants.setForeground(instructionStyle, new Color(255,255,255));
 		try {
+			document.insertString(0, "Connected successfully... \n", instructionStyle);
 			document.insertString(0, "Enter your database folder path \n", instructionStyle);
 		} catch (BadLocationException e1) {
 			e1.printStackTrace();
@@ -97,32 +108,26 @@ public class CommandLine {
 				String text = input.getText();
 
 				if (text.length() > 0) {
-
-					if (intialize) {
-						File dir = new File(text);
-						info.put("path", dir.getAbsoluteFile().getAbsolutePath());
+					
+					if (text.equals("-1")) {
 						try {
-							myConnection = myDriver.connect("jdbc:xmldb://localhost", info);
-							myStatment = myConnection.createStatement();
+							myStatment.close();
+							myConnection.close();
 						} catch (SQLException e1) {
 							e1.printStackTrace();
 						}
-						intialize = false;
-						print("Connected successfully... \n", true);
-
+						System.exit(0);
 					}
 					
-					else {
-						boolean correct;
-						try {
-							correct = qp.commandChooser(text, myStatment);
-						}
-						catch (Throwable error) {
-							correct = false;
-						}
-						
-						print(text + "\n", correct);
+					boolean correct;
+					try {
+						correct = qp.commandChooser(text, myStatment);
 					}
+					catch (Throwable error) {
+						correct = false;
+					}
+		
+					print(text + "\n", correct);
 					scrollBottom();
 					input.selectAll();
 				}

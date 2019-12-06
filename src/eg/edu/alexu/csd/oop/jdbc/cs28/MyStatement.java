@@ -10,16 +10,17 @@ import eg.edu.alexu.csd.oop.jdbc.cs28.superClasses.SuperStatement;
 
 public class MyStatement extends SuperStatement {
 
-	private final DatabaseImp DB = new DatabaseImp();
+	private DatabaseImp DB;
 	private ArrayList<String> batch = new ArrayList<String>();
 	private int TimeOut;
 	private boolean closed;
 	private Connection connection;
 	private String dir;
 
-	public MyStatement(Connection connection, String path) throws SQLException {
+	public MyStatement(Connection connection, String path, DatabaseImp DB) throws SQLException {
 		this.connection = connection;
 		this.dir = path;
+		this.DB = DB;
 		closed = false;
 	}
 
@@ -135,6 +136,28 @@ public class MyStatement extends SuperStatement {
 		}
 		this.TimeOut = seconds;
 	}
+	
+ 	// Helper method to identify the sql statement
+
+ 	private String identifySQl(String sql) {
+
+ 		// Retrieve first word of the sql statement
+ 		String sqlKey = sql.split("[\\s]+")[0];
+
+ 		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
+ 			return "structure";
+ 		}
+
+ 		else if (sqlKey.equalsIgnoreCase("select")) {
+ 			return "select";
+ 		}
+
+ 		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
+ 				|| sqlKey.equalsIgnoreCase("update")) {
+ 			return "update";
+ 		}
+ 		return "NonSQL";
+ 	}
 	
 	public void save () throws SQLException{
 		if (closed) {

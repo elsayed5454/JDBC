@@ -1,5 +1,6 @@
 package eg.edu.alexu.csd.oop.jdbc.cs28;
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverPropertyInfo;
 import java.sql.SQLException;
@@ -26,7 +27,8 @@ public class MyDriver extends SuperDriver {
 	public Connection connect(String arg0, Properties arg1) throws SQLException {
 		
 		if (acceptsURL(arg0) && arg1.containsKey("path") && arg1.get("path") != null ) {
-			String path =  (String) arg1.get("path");
+			File file = (File) arg1.get("path") ;
+			String path =  file.getAbsolutePath();
 			return new MyConnection(path) ;			
 		}
 
