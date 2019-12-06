@@ -12,37 +12,43 @@ public class SuperDriver implements Driver {
 
 	@Override
 	public boolean acceptsURL(String arg0) throws SQLException {
-		return false;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public Connection connect(String arg0, Properties arg1) throws SQLException {
-		return null;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public int getMajorVersion() {
-		return 0;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public int getMinorVersion() {
-		return 0;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
-		return null;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public DriverPropertyInfo[] getPropertyInfo(String arg0, Properties arg1) throws SQLException {
-		return null;
+		throw new UnsupportedOperationException();
+		
 	}
 
 	@Override
 	public boolean jdbcCompliant() {
-		return false;
+		throw new UnsupportedOperationException();
 	}
 
 }
