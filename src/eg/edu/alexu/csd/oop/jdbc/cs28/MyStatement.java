@@ -15,20 +15,17 @@ public class MyStatement extends SuperStatement {
 	private int TimeOut;
 	private boolean closed;
 	private Connection connection;
+	private String dir;
 
 	public MyStatement(Connection connection, String path) throws SQLException {
 		this.connection = connection;
-		try {
-			execute("CREATE DATABASE " + path);
-		} catch (SQLException e) {
-			throw new SQLException("Can't create database");
-		}
+		this.dir = path;
 		closed = false;
 	}
 
 	@Override
 	public void addBatch(String sql) throws SQLException {
-
+		
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
@@ -47,9 +44,6 @@ public class MyStatement extends SuperStatement {
 	@Override
 	public void close() throws SQLException {
 
-		if (closed) {
-			throw new SQLException("Statement closed");
-		}
 		closed = true;
 		batch = null;
 	}
@@ -61,31 +55,7 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 
-		// Retrieve first word of the sql statement and send the query to the
-		// appropriate function
-		String sqlKey = sql.split("[\\s]+")[0];
-		boolean result = false;
-
-		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
-			return DB.executeStructureQuery(sql);
-		}
-
-		// If the result set return isn't null therefore the statement executed properly
-		else if (sqlKey.equalsIgnoreCase("select")) {
-			if (executeQuery(sql) != null) {
-				result = true;
-			}
-		}
-
-		// If the returned updated rows count doesn't equal zero therefore the statement
-		// executed properly
-		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
-				|| sqlKey.equalsIgnoreCase("update")) {
-			if (executeUpdate(sql) != 0) {
-				result = true;
-			}
-		}
-		return result;
+		return DB.executeStructureQuery(sql);	
 	}
 
 	@Override
@@ -165,27 +135,12 @@ public class MyStatement extends SuperStatement {
 		}
 		this.TimeOut = seconds;
 	}
-
-	// Helper method to identify the sql statement
-	private String identifySQl(String sql) {
-
-		// Retrieve first word of the sql statement
-		String sqlKey = sql.split("[\\s]+")[0];
-
-		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
-			return "structure";
+	
+	public void save () throws SQLException{
+		if (closed) {
+			throw new SQLException("Statement closed");
 		}
-
-		else if (sqlKey.equalsIgnoreCase("select")) {
-			return "select";
-		}
-
-		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
-				|| sqlKey.equalsIgnoreCase("update")) {
-			return "update";
-		}
-
-		return "NonSQL";
+		DB.save();
 	}
 
 }

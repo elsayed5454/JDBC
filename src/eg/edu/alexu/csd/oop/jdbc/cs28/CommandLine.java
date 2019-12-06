@@ -29,6 +29,7 @@ public class CommandLine {
 	Properties info = new Properties();
 	Connection myConnection ;
 	Statement myStatment;
+	QueryParser qp = new QueryParser();
 
 	public static void main(String[] args) {
 
@@ -114,8 +115,7 @@ public class CommandLine {
 					else {
 						boolean correct;
 						try {
-							myStatment.execute(text);
-							correct = true;
+							correct = qp.commandChooser(text, myStatment);
 						}
 						catch (Throwable error) {
 							correct = false;
