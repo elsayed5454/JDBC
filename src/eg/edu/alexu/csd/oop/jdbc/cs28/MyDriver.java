@@ -1,15 +1,14 @@
 package eg.edu.alexu.csd.oop.jdbc.cs28;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverPropertyInfo;
 import java.sql.SQLException;
-import java.sql.SQLFeatureNotSupportedException;
 import java.util.Properties;
 import java.util.Set;
-import java.util.logging.Logger;
 
-public class MyDriver implements Driver {
+import eg.edu.alexu.csd.oop.jdbc.cs28.superClasses.SuperDriver;
+
+public class MyDriver extends SuperDriver {
 
 	@Override
 	public boolean acceptsURL(String arg0) throws SQLException {
@@ -44,27 +43,6 @@ public class MyDriver implements Driver {
 		}
 		
 		return new DriverPropertyInfo[0];
-	}
-
-	// Unimplemented methods
-	@Override
-	public int getMajorVersion() {
-				throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getMinorVersion() {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public Logger getParentLogger() throws SQLFeatureNotSupportedException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public boolean jdbcCompliant() {
-		throw new UnsupportedOperationException();
 	}
 
 }

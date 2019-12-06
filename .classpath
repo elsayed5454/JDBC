@@ -9,5 +9,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="lib" path="test_supporting_files.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/16_28_33_74_dbms"/>
+	<classpathentry kind="lib" path="dbms.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

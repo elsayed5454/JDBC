@@ -3,290 +3,189 @@ package eg.edu.alexu.csd.oop.jdbc.cs28;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.SQLWarning;
-import java.sql.Statement;
 import java.util.ArrayList;
-import java.lang.UnsupportedOperationException;
-import eg.edu.alexu.csd.oop.db.cs33.*;
 
-public class MyStatement implements Statement {
+import eg.edu.alexu.csd.oop.db.cs33.DatabaseImp;
+import eg.edu.alexu.csd.oop.jdbc.cs28.superClasses.SuperStatement;
 
-	private DatabaseImp database = new DatabaseImp();
+public class MyStatement extends SuperStatement {
+
+	private final DatabaseImp DB = new DatabaseImp();
 	private ArrayList<String> batch = new ArrayList<String>();
-	private String query;
 	private int TimeOut;
-	private boolean opened = false; // To determine if the class opened or closed , in each method it will check if
-									// it is opened else it will throw an exception
-	private Connection c;
+	private boolean closed;
+	private Connection connection;
 
-	public void MyStatment() {
-		opened = true;
-	}
-
-	@Override
-	public <T> T unwrap(Class<T> iface) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public boolean isWrapperFor(Class<?> iface) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public ResultSet executeQuery(String sql) throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else {
-			Object[][] arr = database.executeQuery(sql);
-			ResultSet set = new MyResultSet(arr);
-			return set;
+	public MyStatement(Connection connection, String path) throws SQLException {
+		this.connection = connection;
+		try {
+			execute("CREATE DATABASE " + path);
+		} catch (SQLException e) {
+			throw new SQLException("Can't create database");
 		}
-	}
-
-	@Override
-	public int executeUpdate(String sql) throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else {
-			int counter = 0;
-			counter = database.executeUpdateQuery(sql);
-			return counter;
-		}
-	}
-
-	@Override
-	public void close() throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else {
-			opened = false;
-			batch = null;
-			query = null;
-		}
-
-	}
-
-	@Override
-	public int getMaxFieldSize() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setMaxFieldSize(int max) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getMaxRows() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setMaxRows(int max) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setEscapeProcessing(boolean enable) throws SQLException {
-		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public int getQueryTimeout() throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else
-			return TimeOut;
-	}
-
-	@Override
-	public void setQueryTimeout(int seconds) throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else
-			this.TimeOut = seconds;
-
-	}
-
-	@Override
-	public void cancel() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public SQLWarning getWarnings() throws SQLException {
-
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void clearWarnings() throws SQLException {
-		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public void setCursorName(String name) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public boolean execute(String sql) throws SQLException {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public ResultSet getResultSet() throws SQLException {
-
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getUpdateCount() throws SQLException {
-		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public boolean getMoreResults() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setFetchDirection(int direction) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getFetchDirection() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setFetchSize(int rows) throws SQLException {
-		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public int getFetchSize() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getResultSetConcurrency() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getResultSetType() throws SQLException {
-		throw new UnsupportedOperationException();
+		closed = false;
 	}
 
 	@Override
 	public void addBatch(String sql) throws SQLException {
-		if (!opened) {
-			throw new SQLException("Statement closed");
-		} else {
-			batch.add(sql);
-		}
 
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		batch.add(sql);
 	}
 
 	@Override
 	public void clearBatch() throws SQLException {
-		if (!opened) {
+
+		if (closed) {
 			throw new SQLException("Statement closed");
-		} else {
-			batch.clear();
+		}
+		batch.clear();
+	}
+
+	@Override
+	public void close() throws SQLException {
+
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		closed = true;
+		batch = null;
+	}
+
+	@Override
+	public boolean execute(String sql) throws SQLException {
+
+		if (closed) {
+			throw new SQLException("Statement closed");
 		}
 
+		// Retrieve first word of the sql statement and send the query to the
+		// appropriate function
+		String sqlKey = sql.split("[\\s]+")[0];
+		boolean result = false;
+
+		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
+			return DB.executeStructureQuery(sql);
+		}
+
+		// If the result set return isn't null therefore the statement executed properly
+		else if (sqlKey.equalsIgnoreCase("select")) {
+			if (executeQuery(sql) != null) {
+				result = true;
+			}
+		}
+
+		// If the returned updated rows count doesn't equal zero therefore the statement
+		// executed properly
+		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
+				|| sqlKey.equalsIgnoreCase("update")) {
+			if (executeUpdate(sql) != 0) {
+				result = true;
+			}
+		}
+		return result;
 	}
 
 	@Override
 	public int[] executeBatch() throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		int[] updateCounts = new int[batch.size()];
+		String command;
+
+		// Looping through commands identifying each statement and calling the
+		// appropriate executing function
+		for (int i = 0; i < batch.size(); i++) {
+			command = batch.get(i);
+
+			switch (identifySQl(command)) {
+			case "structure":
+				if (execute(command) == true) {
+					updateCounts[i] = SUCCESS_NO_INFO;
+				} else {
+					updateCounts[i] = EXECUTE_FAILED;
+				}
+				break;
+
+			case "select":
+				if (executeQuery(command) != null) {
+					updateCounts[i] = SUCCESS_NO_INFO;
+				} else {
+					updateCounts[i] = EXECUTE_FAILED;
+				}
+				break;
+				
+			case "update":
+				updateCounts[i] = executeUpdate(command);
+				break;
+				
+			case "NonSQL":
+				updateCounts[i] = EXECUTE_FAILED;
+			}
+		}
+		return updateCounts;
+	}
+
+	@Override
+	public ResultSet executeQuery(String sql) throws SQLException {
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		return new MyResultSet(DB.executeQuery(sql));
+	}
+
+	@Override
+	public int executeUpdate(String sql) throws SQLException {
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		return DB.executeUpdateQuery(sql);
 	}
 
 	@Override
 	public Connection getConnection() throws SQLException {
-		// TODO Auto-generated method stub
-		return null;
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		return this.connection;
 	}
 
 	@Override
-	public boolean getMoreResults(int current) throws SQLException {
-		throw new UnsupportedOperationException();
+	public int getQueryTimeout() throws SQLException {
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		return TimeOut;
 	}
 
 	@Override
-	public ResultSet getGeneratedKeys() throws SQLException {
-		throw new UnsupportedOperationException();
+	public void setQueryTimeout(int seconds) throws SQLException {
+		if (closed) {
+			throw new SQLException("Statement closed");
+		}
+		this.TimeOut = seconds;
 	}
 
-	@Override
-	public int executeUpdate(String sql, int autoGeneratedKeys) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
+	// Helper method to identify the sql statement
+	private String identifySQl(String sql) {
 
-	@Override
-	public int executeUpdate(String sql, int[] columnIndexes) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
+		// Retrieve first word of the sql statement
+		String sqlKey = sql.split("[\\s]+")[0];
 
-	@Override
-	public int executeUpdate(String sql, String[] columnNames) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
+		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
+			return "structure";
+		}
 
-	@Override
-	public boolean execute(String sql, int autoGeneratedKeys) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
+		else if (sqlKey.equalsIgnoreCase("select")) {
+			return "select";
+		}
 
-	@Override
-	public boolean execute(String sql, int[] columnIndexes) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
+		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
+				|| sqlKey.equalsIgnoreCase("update")) {
+			return "update";
+		}
 
-	@Override
-	public boolean execute(String sql, String[] columnNames) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public int getResultSetHoldability() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public boolean isClosed() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void setPoolable(boolean poolable) throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public boolean isPoolable() throws SQLException {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
-	public void closeOnCompletion() throws SQLException {
-		throw new UnsupportedOperationException();
-
-	}
-
-	@Override
-	public boolean isCloseOnCompletion() throws SQLException {
-		throw new UnsupportedOperationException();
+		return "NonSQL";
 	}
 
 }
