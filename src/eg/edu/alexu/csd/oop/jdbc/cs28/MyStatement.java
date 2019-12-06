@@ -10,17 +10,19 @@ import eg.edu.alexu.csd.oop.jdbc.cs28.superClasses.SuperStatement;
 
 public class MyStatement extends SuperStatement {
 
-	private final DatabaseImp DB = new DatabaseImp();
+	private DatabaseImp DB;
 	private ArrayList<String> batch = new ArrayList<String>();
 	private int TimeOut;
 	private boolean closed;
 	private Connection connection;
-	private String path;
+	private String dir;
 	private MyLogger myLogger = MyLogger.getInstance();
 
-	public MyStatement(Connection connection, String path) throws SQLException {
+	public MyStatement(Connection connection, String path, DatabaseImp DB) throws SQLException {
+		
 		this.connection = connection;
-		this.path = path;
+		this.dir = path;
+		this.DB = DB;
 		closed = false;
 		myLogger.logger.info("Statement created successfully");
 	}
