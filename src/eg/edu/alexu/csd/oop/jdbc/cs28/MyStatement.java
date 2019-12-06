@@ -6,8 +6,10 @@ import java.sql.SQLException;
 import java.sql.SQLWarning;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.lang.UnsupportedOperationException;
+
 import eg.edu.alexu.csd.oop.db.cs33.*;
+
+import java.lang.UnsupportedOperationException;
 
 public class MyStatement implements Statement {
 
