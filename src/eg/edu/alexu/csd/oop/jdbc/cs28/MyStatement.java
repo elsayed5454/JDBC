@@ -114,11 +114,11 @@ public class MyStatement extends SuperStatement {
 					updateCounts[i] = EXECUTE_FAILED;
 				}
 				break;
-				
+
 			case "update":
 				updateCounts[i] = executeUpdate(command);
 				break;
-				
+
 			case "NonSQL":
 				updateCounts[i] = EXECUTE_FAILED;
 			}
