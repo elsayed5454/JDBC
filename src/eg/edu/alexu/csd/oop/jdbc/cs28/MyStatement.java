@@ -15,12 +15,14 @@ public class MyStatement extends SuperStatement {
 	private int TimeOut;
 	private boolean closed;
 	private Connection connection;
-	private String dir;
+	private String path;
+	private MyLogger myLogger = MyLogger.getInstance();
 
 	public MyStatement(Connection connection, String path) throws SQLException {
 		this.connection = connection;
-		this.dir = path;
+		this.path = path;
 		closed = false;
+		myLogger.logger.info("Statement created successfully");
 	}
 
 	@Override
@@ -30,6 +32,7 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 		batch.add(sql);
+		myLogger.logger.info("Adding command to batch");
 	}
 
 	@Override
@@ -39,6 +42,7 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 		batch.clear();
+		myLogger.logger.warning("Batch cleared");
 	}
 
 	@Override
@@ -46,6 +50,7 @@ public class MyStatement extends SuperStatement {
 
 		closed = true;
 		batch = null;
+		myLogger.logger.warning("Closing statement");
 	}
 
 	@Override
@@ -54,7 +59,7 @@ public class MyStatement extends SuperStatement {
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
-
+		myLogger.logger.info("Executing command");
 		return DB.executeStructureQuery(sql);	
 	}
 
@@ -93,6 +98,7 @@ public class MyStatement extends SuperStatement {
 				updateCounts[i] = EXECUTE_FAILED;
 			}
 		}
+		myLogger.logger.info("Batch of commands executed");
 		return updateCounts;
 	}
 
@@ -101,6 +107,7 @@ public class MyStatement extends SuperStatement {
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
+		myLogger.logger.info("Creating resultSet data");
 		return new MyResultSet(DB.executeQuery(sql), DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
 	}
 
@@ -109,6 +116,7 @@ public class MyStatement extends SuperStatement {
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
+		myLogger.logger.info("Executing update query");
 		return DB.executeUpdateQuery(sql);
 	}
 
@@ -136,11 +144,33 @@ public class MyStatement extends SuperStatement {
 		this.TimeOut = seconds;
 	}
 	
-	public void save () throws SQLException{
+	public void save() throws SQLException{
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
 		DB.save();
+	}
+	
+	// Helper method to identify the sql statement
+	private String identifySQl(String sql) {
+
+		// Retrieve first word of the sql statement
+		String sqlKey = sql.split("[\\s]+")[0];
+
+		if (sqlKey.equalsIgnoreCase("create") || sqlKey.equalsIgnoreCase("drop")) {
+			return "structure";
+		}
+
+		else if (sqlKey.equalsIgnoreCase("select")) {
+			return "select";
+		}
+
+		else if (sqlKey.equalsIgnoreCase("insert") || sqlKey.equalsIgnoreCase("delete")
+				|| sqlKey.equalsIgnoreCase("update")) {
+			return "update";
+		}
+		
+		return "NonSQL";
 	}
 
 }

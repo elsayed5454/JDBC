@@ -9,15 +9,19 @@ import java.util.Set;
 import eg.edu.alexu.csd.oop.jdbc.cs28.superClasses.SuperDriver;
 
 public class MyDriver extends SuperDriver {
+	
+	private MyLogger myLogger = MyLogger.getInstance();
 
 	@Override
 	public boolean acceptsURL(String arg0) throws SQLException {
 		
 		String[] split = arg0.split(":") ; 
 		if (split.length != 3  || !split[0].equals("jdbc")  ||  !split[1].equals("xmldb")  ||  !split[2].startsWith("//")) {
+			myLogger.logger.info("Can't access " + arg0);
 			return false;
 		}
 		else {
+			myLogger.logger.info("Successful access to " + arg0);
 			return true;
 		}
 	}
@@ -26,6 +30,7 @@ public class MyDriver extends SuperDriver {
 	public Connection connect(String arg0, Properties arg1) throws SQLException {
 		
 		if (acceptsURL(arg0) && arg1.containsKey("path") && arg1.get("path") != null ) {
+			myLogger.logger.info("Connecting...");
 			String path =  (String) arg1.get("path");
 			return new MyConnection(path) ;			
 		}

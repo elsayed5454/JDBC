@@ -9,9 +9,11 @@ public class MyResultSetMetaData extends SuperResultSetMetaData {
 
 	private String tableName;
 	private String[] columnsNames, columnsTypes;
+	private MyLogger myLogger = MyLogger.getInstance();
 
 	public MyResultSetMetaData(String tableName, String[] columnsNames, Object[] randomRow) {
 
+		myLogger.logger.info("Creating meta data");
 		this.tableName = tableName;
 		this.columnsNames = columnsNames;
 

@@ -17,6 +17,7 @@ public class MyResultSet extends SuperResultSet {
 	private Statement generator;
 	// Boolean to know whether the table is closed or not
 	private boolean closed;
+	private MyLogger myLogger = MyLogger.getInstance();
 
 	public MyResultSet(Object[][] table, String tableName, Statement generator, String[] columnsNames) {
 
@@ -28,6 +29,7 @@ public class MyResultSet extends SuperResultSet {
 		this.columnsNum = table[0].length;
 		this.generator = generator;
 		closed = false;
+		myLogger.logger.info("Creating resultSet");
 	}
 
 	@Override
@@ -44,6 +46,7 @@ public class MyResultSet extends SuperResultSet {
 		} else {
 			currentInd = rowsNum + row;
 		}
+		myLogger.logger.info("Moving current index to row " + row);
 		return true;
 	}
 
@@ -60,13 +63,17 @@ public class MyResultSet extends SuperResultSet {
 	@Override
 	public void close() throws SQLException {
 
-		table = null;
-		columnsNames = null;
-		currentInd = -1;
-		rowsNum = 0;
-		columnsNum = 0;
-		generator = null;
-		closed = true;
+		if(!closed) {
+			table = null;
+			columnsNames = null;
+			currentInd = -1;
+			rowsNum = 0;
+			columnsNum = 0;
+			generator = null;
+			closed = true;
+			myLogger.logger.warning("ResultSet Closed");
+		}
+		throw new SQLException();
 	}
 
 	@Override
@@ -94,11 +101,13 @@ public class MyResultSet extends SuperResultSet {
 	public int getInt(int columnIndex) throws SQLException {
 
 		if (columnIndex > columnsNum || columnIndex <= 0) {
+			myLogger.logger.info("Invalid column index is entered");
 			throw new SQLException();
 		}
 		if (table[currentInd][columnIndex - 1] == null) {
 			return 0;
 		}
+		myLogger.logger.info("Getting result at column " + columnIndex);
 		return (int) table[currentInd][columnIndex - 1];
 	}
 
@@ -123,8 +132,10 @@ public class MyResultSet extends SuperResultSet {
 	public Object getObject(int columnIndex) throws SQLException {
 
 		if (columnIndex > columnsNum || columnIndex <= 0) {
+			myLogger.logger.info("Invalid column index is entered");
 			throw new SQLException();
 		}
+		myLogger.logger.info("Getting result at column " + columnIndex);
 		return table[currentInd][columnIndex - 1];
 	}
 
@@ -136,11 +147,13 @@ public class MyResultSet extends SuperResultSet {
 	public String getString(int columnIndex) throws SQLException {
 
 		if (columnIndex > columnsNum || columnIndex <= 0) {
+			myLogger.logger.info("Invalid column index is entered");
 			throw new SQLException();
 		}
 		if (table[currentInd][columnIndex - 1] == null) {
 			return null;
 		}
+		myLogger.logger.info("Getting result at column " + columnIndex);
 		return (String) table[currentInd][columnIndex - 1];
 	}
 
@@ -183,6 +196,7 @@ public class MyResultSet extends SuperResultSet {
 
 		if (rowsNum > 0) {
 			currentInd = rowsNum - 1;
+			myLogger.logger.info("Moving current index to last row");
 			return true;
 		}
 		return false;
@@ -193,6 +207,7 @@ public class MyResultSet extends SuperResultSet {
 
 		currentInd++;
 		if (currentInd < rowsNum) {
+			myLogger.logger.info("Moving current index to next row");
 			return true;
 		}
 		return false;
@@ -205,6 +220,7 @@ public class MyResultSet extends SuperResultSet {
 		if (currentInd < 0) {
 			return false;
 		}
+		myLogger.logger.info("Moving current index to previous row");
 		return true;
 	}
 

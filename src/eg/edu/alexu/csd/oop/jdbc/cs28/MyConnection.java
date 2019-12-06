@@ -9,14 +9,17 @@ public class MyConnection extends SuperConnection {
 
 	private String path;
 	private boolean closed;
+	private MyLogger myLogger = MyLogger.getInstance();
 
 	public MyConnection(String path) {
 		this.closed = false;
 		this.path = path;
+		myLogger.logger.info("Connection successful");
 	}
 
 	@Override
 	public Statement createStatement() throws SQLException {
+		myLogger.logger.info("Creating statement...");
 		return new MyStatement(this, path);
 	}
 
@@ -25,6 +28,7 @@ public class MyConnection extends SuperConnection {
 		if (closed) {
 			throw new SQLException();
 		}
+		myLogger.logger.info("Connection closed");
 		closed = true;
 	}
 }
