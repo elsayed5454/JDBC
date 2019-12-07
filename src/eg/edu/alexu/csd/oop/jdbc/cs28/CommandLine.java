@@ -85,7 +85,7 @@ public class CommandLine {
 		StyleConstants.setForeground(instructionStyle, new Color(255,255,255));
 		try {
 			document.insertString(0, "Connected successfully... \n", instructionStyle);
-			document.insertString(0, "Enter your database folder path \n", instructionStyle);
+			document.insertString(document.getLength(), "Create your database\n", instructionStyle);
 		} catch (BadLocationException e1) {
 			e1.printStackTrace();
 		}

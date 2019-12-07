@@ -6514,3 +6514,1285 @@ Dec 07, 2019 2:55:06 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
 INFO: Executing command
 Dec 07, 2019 2:55:20 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
 INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet previous
+INFO: Moving current index to previous row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet previous
+INFO: Moving current index to previous row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet getObject
+INFO: Getting result at column 2
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:05 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet previous
+INFO: Moving current index to previous row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet previous
+INFO: Moving current index to previous row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet getObject
+INFO: Getting result at column 2
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement execute
+INFO: Executing command
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet <init>
+INFO: Creating resultSet
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSet next
+INFO: Moving current index to next row
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyResultSetMetaData <init>
+INFO: Creating meta data
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeUpdate
+INFO: Executing update query
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 3:06:12 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
+Dec 07, 2019 3:06:28 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:28 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:28 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:28 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:28 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:06:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:06:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:06:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:06:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:06:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:07:21 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:07:21 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:07:21 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:07:21 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:07:21 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:09:17 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:09:17 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:09:17 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:09:17 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:09:17 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 3:12:44 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 3:12:44 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 3:12:44 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 3:12:44 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 3:12:44 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 4:17:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver acceptsURL
+INFO: Successful access to jdbc:xmldb://localhost
+Dec 07, 2019 4:17:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyDriver connect
+INFO: Connecting...
+Dec 07, 2019 4:17:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection <init>
+INFO: Connection successful
+Dec 07, 2019 4:17:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection createStatement
+INFO: Creating statement...
+Dec 07, 2019 4:17:57 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement <init>
+INFO: Statement created successfully
+Dec 07, 2019 4:18:23 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement executeQuery
+INFO: Creating resultSet data
+Dec 07, 2019 4:18:24 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyStatement close
+WARNING: Closing statement
+Dec 07, 2019 4:18:24 AM eg.edu.alexu.csd.oop.jdbc.cs28.MyConnection close
+INFO: Connection closed
