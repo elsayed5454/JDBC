@@ -49,7 +49,9 @@ public class MyStatement extends SuperStatement {
 
 	@Override
 	public void close() throws SQLException {
-
+		if (!closed) {
+			DB.save();
+		}
 		closed = true;
 		batch = null;
 		myLogger.logger.warning("Closing statement");
@@ -125,8 +127,9 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 		myLogger.logger.info("Creating resultSet data");
-		if(DB.executeQuery(sql) != null) {
-			return new MyResultSet(DB.executeQuery(sql), DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
+		Object[][] s = DB.executeQuery(sql);
+		if( s != null) {
+			return new MyResultSet(s, DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
 		}
 		return null;
 	}
@@ -162,13 +165,6 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 		this.TimeOut = seconds;
-	}
-	
-	public void save() throws SQLException{
-		if (closed) {
-			throw new SQLException("Statement closed");
-		}
-		DB.save();
 	}
 	
 	// Helper method to identify the sql statement

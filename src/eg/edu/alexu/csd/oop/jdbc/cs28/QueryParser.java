@@ -83,7 +83,7 @@ public class QueryParser {
 		else if(querySplit.length >= 5 && querySplit[0].equalsIgnoreCase("INSERT") && querySplit[1].equalsIgnoreCase("INTO")) {
 			if(querySplit[3].equalsIgnoreCase("VALUES") || checkInsertTableSchema(querySplit)) {
 				try {
-					statement.executeQuery(query);
+					statement.executeUpdate(query);
 				} catch (SQLException e) {
 					return false;
 				}
