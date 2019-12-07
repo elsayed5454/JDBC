@@ -61,8 +61,23 @@ public class MyStatement extends SuperStatement {
 		if (closed) {
 			throw new SQLException("Statement closed");
 		}
+		
+		String sqlKey = identifySQl(sql);
+		boolean result = false;
+		
+		if(sqlKey.equals("structure")) {
+			return DB.executeStructureQuery(sql);
+		}
+		
+		else if(sqlKey.equals("select") && executeQuery(sql) != null) {
+			result = true;
+		}
+		else if(sqlKey.equals("update") && executeUpdate(sql) != 0) {
+			result = true;
+		}
+		
 		myLogger.logger.info("Executing command");
-		return DB.executeStructureQuery(sql);	
+		return result;
 	}
 
 	@Override
@@ -110,7 +125,10 @@ public class MyStatement extends SuperStatement {
 			throw new SQLException("Statement closed");
 		}
 		myLogger.logger.info("Creating resultSet data");
-		return new MyResultSet(DB.executeQuery(sql), DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
+		if(DB.executeQuery(sql) != null) {
+			return new MyResultSet(DB.executeQuery(sql), DB.getCurrentQueryTableName(), this, DB.getCurrentColumnNames());
+		}
+		return null;
 	}
 
 	@Override

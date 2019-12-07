@@ -26,7 +26,9 @@ public class MyResultSet extends SuperResultSet {
 		this.columnsNames = columnsNames;
 		this.currentInd = -1;
 		this.rowsNum = table.length;
-		this.columnsNum = table[0].length;
+		if(table.length != 0) {
+			this.columnsNum = table[0].length;
+		}
 		this.generator = generator;
 		closed = false;
 		myLogger.logger.info("Creating resultSet");
